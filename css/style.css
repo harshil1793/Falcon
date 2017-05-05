@@ -1,0 +1,490 @@
+/*************   Home Page CSS *************/
+
+.navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;/*#2d2d30*/
+      border: 0;
+      font-size: 13px !important;
+      letter-spacing: 4px;
+      opacity: 0.6;
+        
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff!important;
+  }
+  .navbar-nav li a:hover {
+      color: #eee !important;
+  }
+
+.carousel-inner img {
+      
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+
+.slidertext {
+    font-size: 54px;
+    font-family: lato;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.slidertext2 {
+    
+    font-size: 44px;
+    font-family: lato;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.slidertag {
+    margin-top:-25px;
+    margin-left:50px;
+    font-size: 34px;
+    color:#fff;
+    font-family: lato;
+    font-weight: 300;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+
+
+.heading {
+    margin-top:50px;
+    color: #f4511e;
+    font-family: lato;
+    font-weight: bold;
+    letter-spacing: 3px;
+    
+}
+/*************   Home Page CSS *************/
+
+
+
+/************** Menu ******* LEFT TO RIGHT Animation **************/
+
+.sliding-u-l-r {
+    display: inline-block;
+}
+.sliding-u-l-r:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-u-l-r:hover:after {
+    width: 70%;
+    background: #fff;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.active {
+    border-top: 3px solid #fff;
+}
+
+
+/************** Menu ******* LEFT TO RIGHT Animation **************/
+
+
+
+
+
+
+.fontlato {
+    font-family: lato;
+}
+.aboutpage {
+    height:50%;
+}
+
+
+.title {
+    margin-top:100px;
+    margin-bottom: 30px;
+}
+.title h1 {
+    font-family: lato;
+    color:#000;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #eee;
+    
+}
+.title h3 {
+    font-family: lato;
+    color:#000;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #eee;
+    
+}
+.title p {
+    font-family: lato;
+    font-size: 17px;
+    color:#777;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+
+.blogpost {
+    margin-top:100px;
+    margin-bottom: 30px;
+}
+.blogpost h1 {
+    font-family: lato;
+    color:#000;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #eee;
+    
+}
+.blogpost p {
+    font-family: lato;
+    font-size: 17px;
+    color:#000;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+
+.blogpost em {
+    font-family: lato;
+    font-size: 14px;
+    color:#777;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    font-weight: 900;
+    border-bottom: 1px solid #dd9933;
+}
+.blogpost img {
+    width:350px
+}
+.blogpost a {
+    text-decoration: none;
+}
+.blogpost a:hover {
+    background-color: #fff;
+    opacity:0.8;
+}
+.readmore {
+    border:none;
+    border-radius: 20px;
+    letter-spacing: 1px
+}
+.marg30 {
+    margin-top:30px;
+}
+.marg70{
+    margin-top:70px;
+}
+
+
+
+/************** Scale Model **************/
+
+.scale {
+    padding:0px;
+    margin-bottom:40px;
+    border:3px solid #eee;
+}
+.scale img {
+    width:100%
+}
+.scale h3 {
+    font-family:lato;
+    color:#777;
+    font-weight:300;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.scale h4 {
+    font-family:lato;
+    font-weight:bold;
+    margin-left:10px;
+    margin-top:10px;
+    color:#000;
+    margin-bottom:30px;
+}
+.scale a{
+    text-decoration: none;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    
+}
+.scale a:hover{
+    
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.scale .btnleft {
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.scale .btnright {
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-top:-40px;
+}
+/************** Scale Model **************/
+
+
+/************** popup **************/
+
+/* The Modal (background) */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #272727;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #fff;
+    color: #272727;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #fff;
+    color: white;
+    margin-bottom: 100px;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    margin-top: 100px;
+    font-family: lato;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -600px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -600px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/************** popup **************/
+
+
+
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/************** Footer **************/
+
+footer {
+    background-color: #272727;
+    color: #fff;
+    font-family: lato;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top:1px solid #eee;
+}
+footer p {
+    letter-spacing: 1px;
+}
+footer h3 {
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    margin-left:30px;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+footer a:hover {
+    color: #dd9933;
+    text-decoration: none;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.form-control {
+    border-radius: 0;
+}
+
+.footerinput {
+    width: 350px;
+    padding: 10px 10px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background-color: #272727;
+    color:#fff;
+    font-size: 16px;
+    border: 2px solid #aaa;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.footerinput:focus{
+     box-shadow: none;
+  padding: 10px 10px;
+    outline: none;
+    border: 2px solid #dd9933;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
+button {
+    margin-left: 5px;
+}
+textarea {
+    resize: none;
+}
+.hr {
+    margin-top:20px;
+    color:#777;
+    border-bottom: 1px solid #444;
+}
+/************** Footer **************/
