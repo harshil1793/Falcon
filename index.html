@@ -6,34 +6,42 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel = "stylesheet" href = "css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" >
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                      <!--<i class="fa fa-bars" aria-hidden="true" style="font-size: 24px; color: #525c65 !important;"></i>-->
+                        <div id="nav-icon3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                   </button>
-                  <a class="navbar-brand" href="#myPage"><img alt="logo" src="images/logo.png" width="150px"></a>
+                  <a title="Falcon"class="navbar-brand" href="#myPage">
+                      <!--<img alt="logo" src="images/logo.png" width="150px">-->
+                      <p class="logo">Falcon</p>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right ">
-                        <li><a href="index.html" class="sliding-u-l-r active">HOME</a></li>
-                        <li><a href="models.html" class="sliding-u-l-r">MODELS</a></li>
-                        <li><a href="about.html" class="sliding-u-l-r">ABOUT</a></li>
-                        <li><a href="events.html" class="sliding-u-l-r">EVENTS</a></li>
-                        <li><a href="contact.html" class="sliding-u-l-r">CONTACT</a></li>
-                        <li><a href="shop.html" class="sliding-u-l-r">SHOP</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a title="Home" href="index.html">Home</a></li>
+                        <li><a title="Models" href="models.html">Models</a></li>
+                        <li><a title="About" href="about.html">About</a></li>
+                        <li><a title="Events" href="events.html">Events</a></li>
+                        <li><a title="Contact" href="contact.html">Contact</a></li>
+                        <li><a title="Shop" href="shop.html">Shop</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div id="myCarousel" class="carousel slide parallax" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -76,10 +84,10 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        
+        <session>
         <div class="container">
             <div class="title">
-                <h1 class="text-center">WHAT IS A FALCON?</h1>
+                <h2 class="text-center">What is a Falcon?</h2>
                 <p>
                     Christian decided that instead of chasing after the perfect business idea, 
                     he would follow his heart. He would build his dream car. Christian understood 
@@ -108,11 +116,12 @@
                     after it was first built, the car still drives perfectly!
                 </p>
             </div>
-            
+            </session>
+            <session>
             <div class="blogpost">
-                <h1 class="text-center">BLOG POSTS</h1>
+                <h1 class="text-center">Blog Posts</h1>
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog1.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog1.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right" ><br><br>
                     <em>July 27, 2016</em>
                     <p >
                         July 2016 saw Falcon host the first of what we hope will be many owners’ gatherings around the world. This was a truly significant event, with just over 10% of Falcon’s total lifetime production present.<br><br>
@@ -121,7 +130,7 @@
                 </div>
                 
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog4.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog4.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right"><br><br>
                     <em>July 17, 2016</em>
                     <p >
                         A Falcon One:1 endured a severe crash at the Nürburgring Circuit in Germany last Monday, 18th July. The accident occurred at approximately 16:30 hours, some 3.5 hours into a session of Industry Pool testing that began at 13:00 hours.<br><br>
@@ -130,7 +139,7 @@
                 </div>
                 
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog2.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog2.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right"><br><br>
                     <em>June 29, 2016</em>
                     <p >
                         Geneva was a bit of an interruption, but we are finally back to document the build of Agera RS chassis #7128. When we last covered Build#128, the car was at Station 2 where the first fitting of the all the body panels was made to the tub chassis built at Station 1.<br><br>
@@ -139,7 +148,7 @@
                 </div>
                 
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog3.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog3.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right"><br><br>
                     <em>July 15, 2016</em>
                     <p >
                         Falcon Automotive AB can confirm reports online that a Falcon One:1 was involved in a crash during testing as part of Industry Pool at the Nurburgring on Monday, 18 July.<br><br>
@@ -148,7 +157,7 @@
                 </div>
                 
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog5.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog5.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right"><br><br>
                     <em>July 12, 2016</em>
                     <p >
                         The Falcon One:1 owned by the BHP Project and driven by Oliver Webb broke the Vmax200 speed record not once, not twice but three times last weekend, with a terminal speed of 240mph over the 1.4 mile track at Bruntingthorpe, in the United Kingdom.<br><br>
@@ -157,7 +166,7 @@
                 </div>
                 
                 <div class="col-md-4 marg30">
-                    <a><img src="images/blog/blog6.jpg" alt="Falcon OWNERS EVENT 2016" ></a><br><br>
+                    <img src="images/blog/blog6.jpg" alt="Falcon OWNERS EVENT 2016" class="shadow-right"><br><br>
                     <em>July 05, 2016</em>
                     <p >
                         Falcon recently had the distinct pleasure of taking the One:1 to Ascari Race Resort in southern Spain to pit man against machine as part of the Castrol EDGE CloneRival campaign.<br><br>
@@ -166,22 +175,22 @@
                 </div>
             </div>
         </div>
-        
+        </session>
         <!-- Footer -->
         <footer class="text-center marg70">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3>NEWSLETTER</h3>
+                        <h3>Newsletter</h3>
                         <form class="form-inline marg30" role="form">
                             <div class="form-group ">
                                 <input type="email" class="footerinput" id="email" placeholder="Email">
                             </div>
-                            <button type="submit" class="btn btn-danger">SUBMIT</button>
+                            <button type="submit" class="btn btn-danger">Submit</button>
                         </form>
                     </div>
                     <div class="col-md-6 ">
-                        <h3>CONTACT US</h3>
+                        <!--<h3>CONTACT US</h3>-->
                         <div class="marg30">
                             <a href="#"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>
                             <a href="#"><i class="fa fa-twitter" style="font-size:24px"></i></a>
@@ -191,9 +200,18 @@
                     </div>
                 </div>
                 <div class="hr"></div>
-                <p class="pull-left marg30" style="color:#ccc">Copyrights &copy; 2016 Falcon. All rights reserved.</p>
+                <p class="pull-left marg30" style="color:#ccc">Copyrights &copy; 2017 Falcon. All rights reserved.</p>
                 <p class="pull-right marg30"><span style="color:#ccc">Designed by</span> Harshil Moradia</p>
             </div>
         </footer>
+
+
+        <script>
+            $(document).ready(function(){
+                $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+                    $(this).toggleClass('open');
+                });
+            });
+        </script>
     </body>
 </html>

@@ -1,36 +1,77 @@
 /*************   Home Page CSS *************/
-
 .navbar {
-      font-family: Montserrat, sans-serif;
-      margin-bottom: 0;
-      background-color: #2d2d30;/*#2d2d30*/
-      border: 0;
-      font-size: 13px !important;
-      letter-spacing: 4px;
-      opacity: 0.6;
-        
+    margin-bottom: 0;
+    min-height: 72px;
+    border: 0;
+    background-color: #fff;/*#2d2d30*/
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
   }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff!important;
+
+.navbar li a,
+.navbar .navbar-brand {
+    top:11px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #525c65 !important;
+    font-size: 15px !important;
   }
-  .navbar-nav li a:hover {
-      color: #eee !important;
+
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+    color: #3b4249 !important;
+    background-color: none;
+}
+/* Style 2 */
+/*.navbar-style-2 {
+    margin-bottom: 0;
+    min-height: 72px;
+    border: 0;
+    background-color: transparent;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
   }
+
+.navbar-style-2 li a {
+    top:11px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #fff !important;
+    font-size: 15px !important;
+  }
+.navbar-brand p{
+    top:11px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #fff !important;
+    font-size: 26px !important;
+}*/
+
+.logo{
+    font-size:26px;padding-top:11px;letter-spacing:3px;color:#333
+}
+
+
+session{
+    display: block;
+}
+
+
+
 
 .carousel-inner img {
-      
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-  }
-  .carousel-caption h3 {
-      color: #fff !important;
-  }
-  @media (max-width: 600px) {
+    width: 100%;
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
     .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
-  }
-
+}
 
 .slidertext {
     font-size: 54px;
@@ -55,7 +96,6 @@
     opacity: 0.8;
     letter-spacing: 2px;
 }
-
 
 .heading {
     margin-top:50px;
@@ -87,23 +127,21 @@
     background: #fff;
 }
 .navbar-nav li.active a {
-    color: #fff !important;
+    color: #ccc !important;
     background-color: #29292c !important;
 }
 .navbar-default .navbar-toggle {
+    top:9px;
     border-color: transparent;
 }
+.navbar-toggle:hover{
+    background-color: transparent !important;
+}
 .active {
-    border-top: 3px solid #fff;
+    border-top: 3px solid #333;
 }
 
-
 /************** Menu ******* LEFT TO RIGHT Animation **************/
-
-
-
-
-
 
 .fontlato {
     font-family: lato;
@@ -112,13 +150,20 @@
     height:50%;
 }
 
-
 .title {
-    margin-top:100px;
-    margin-bottom: 30px;
+    padding-top:70px;
 }
 .title h1 {
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
+    color:#333;
+    font-weight: 300;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #eee;
+    
+}
+.title h2 {
+    font-family: 'Open Sans', sans-serif;
     color:#333;
     font-weight: 300;
     padding-bottom: 20px;
@@ -127,7 +172,7 @@
     
 }
 .title h3 {
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
     color:#333;
     font-weight: 300;
     padding-bottom: 20px;
@@ -136,21 +181,19 @@
     
 }
 .title p {
-    font-family: lato;
-    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color:#777;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     padding-top: 20px;
     font-weight: 300;
 }
 
-
 .blogpost {
-    margin-top:100px;
-    margin-bottom: 30px;
+    padding-top:70px;
 }
 .blogpost h1 {
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
     color:#333;
     font-weight: 300;
     padding-bottom: 20px;
@@ -159,27 +202,25 @@
     
 }
 .blogpost p {
-    font-family: lato;
-    font-size: 17px;
-    color:#333;
-    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#777;
+    letter-spacing: 0;
     padding-top: 20px;
     font-weight: 300;
 }
 
-
 .blogpost em {
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color:#777;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-top: 20px;
     font-weight: 900;
     border-bottom: 1px solid #dd9933;
 }
-.blogpost img {
-    width:350px
-}
+/*.blogpost img {
+}*/
 .blogpost a {
     text-decoration: none;
 }
@@ -199,8 +240,6 @@
     margin-top:70px;
 }
 
-
-
 /************** Scale Model **************/
 
 .scale {
@@ -212,7 +251,7 @@
     width:100%
 }
 .scale h3 {
-    font-family:lato;
+    font-family:'Open Sans', sans-serif;
     color:#777;
     font-weight:300;
     margin-top:10px;
@@ -220,7 +259,7 @@
     margin-bottom:10px;
 }
 .scale h4 {
-    font-family:lato;
+    font-family:'Open Sans', sans-serif;
     font-weight:bold;
     margin-left:10px;
     margin-top:10px;
@@ -320,7 +359,7 @@
     margin: auto;
     padding: 0;
     margin-top: 100px;
-    font-family: lato;
+    font-family: 'Open Sans', sans-serif;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -343,9 +382,6 @@
 
 /************** popup **************/
 
-
-
-
 .box {
   width: 20%;
   margin: 0 auto;
@@ -356,7 +392,6 @@
   background-clip: padding-box;
   text-align: center;
 }
-
 
 .overlay {
   position: absolute;
@@ -387,7 +422,7 @@
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .popup .close {
   position: absolute;
@@ -417,7 +452,7 @@
 
 .about-parallax{
     min-height: 400px;
-    background-image: url("../images/doors.jpg");
+    background-image: url("../images/Koenigsegg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -425,21 +460,16 @@
 }
 
 
-
-
-
-
-
-
 /************** Footer **************/
 
 footer {
-    background-color: #272727;
+    /*background-color: #333;*/
+    background-image: linear-gradient(to bottom right, #404040, #333);
     color: #fff;
-    font-family: lato;
+    font-family: 'Open Sans', sans-serifs;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-top:1px solid #eee;
+    /*border-top:1px solid #eee;*/
 }
 footer p {
     letter-spacing: 1px;
@@ -469,23 +499,22 @@ footer a:hover {
 
 .footerinput {
     width: 350px;
-    padding: 10px 10px;
+    padding: 5px 10px;
     border: 2px solid #eee;
-    border-radius: 10px;
-    background-color: #272727;
+    border-radius: 5px;
+    background-color: #404040;
     color:#fff;
     font-size: 16px;
-    border: 2px solid #aaa;
+    border: 1px solid #999;
     -webkit-transition: all 0.20s ease-in-out;
     -moz-transition: all 0.20s ease-in-out;
     -ms-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
 }
 .footerinput:focus{
-     box-shadow: none;
-  padding: 10px 10px;
+    box-shadow: none;
     outline: none;
-    border: 2px solid #dd9933;
+    border: 1px solid #ddd;
     -webkit-transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
     -ms-transition: all 0.50s ease-in-out;
@@ -503,3 +532,102 @@ textarea {
     border-bottom: 1px solid #444;
 }
 /************** Footer **************/
+
+
+
+
+
+
+
+
+
+
+
+/*ICON*/
+#nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+  width: 35px;
+  height: 45px;
+  position: relative;
+  margin: 0 auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #525c65;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+  top: 20px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+
+
+
+
+/*image*/
+img{
+    margin:0;
+    max-width:100%;
+    height:auto;
+}
+.shadow-right{
+    box-shadow:5px 5px 25px 0px rgba(46,61,73,0.2);
+}
