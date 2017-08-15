@@ -1,6 +1,7 @@
 /*************   Home Page CSS *************/
 .navbar {
     margin-bottom: 0;
+    padding: 0 20px 0 20px;
     min-height: 72px;
     border: 0;
     z-index: 6000;
@@ -13,7 +14,7 @@
 .navbar li a,
 .navbar .navbar-brand {
     top:11px;
-    letter-spacing: 0;
+    letter-spacing: .006em;
     text-transform: capitalize;
     color: #525c65 !important;
     font-size: 15px !important;
@@ -23,6 +24,10 @@
 .navbar-nav li a:hover {
     color: #3b4249 !important;
     background-color: transparent;
+}
+.navbar-nav li.active a{
+    color:#999 !important;
+    background-color: transparent !important;
 }
 /* Style 2 */
 /*.navbar-style-2 {
@@ -50,7 +55,7 @@
 }*/
 
 .logo{
-    font-size:26px;padding-top:11px;letter-spacing:3px;color:#333
+    font-size:26px;padding-top:11px;letter-spacing:2px;color:#333
 }
 
 
@@ -127,10 +132,10 @@ session{
     width: 70%;
     background: #fff;
 }
-.navbar-nav li.active a {
+/*.navbar-nav li.active a {
     color: #ccc !important;
     background-color: #29292c !important;
-}
+}*/
 .navbar-default .navbar-toggle {
     top:9px;
     border-color: transparent;
@@ -138,9 +143,6 @@ session{
 .navbar-toggle:hover,
 .navbar-toggle:focus{
     background-color: transparent !important;
-}
-.active {
-    border-top: 3px solid #333;
 }
 
 /************** Menu ******* LEFT TO RIGHT Animation **************/
@@ -498,7 +500,7 @@ footer h3 {
 }
 footer a {
     color: #fff;
-    margin-right:15px;
+    margin-right:10px;
     -webkit-transition: all 0.20s ease-in-out;
     -moz-transition: all 0.20s ease-in-out;
     -ms-transition: all 0.20s ease-in-out;
